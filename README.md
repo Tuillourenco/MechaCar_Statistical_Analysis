@@ -19,7 +19,7 @@ This new project consists of three technical analysis deliverables and a proposa
 ### Linear Regression to Predict MPG
 For this deliverable, it is necessary to fulfill some parameters to respond to the three questions below and help the understand the method of evaluation; as shown in the attached picture:
 
-![](MechaCar_Statistical_Analysis/images/deliverable_01.png)
+![](images/deliverable_01.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - In this question, the best approach to respond is in the results,  three variables that behave with a non-random amount of variance: the intercept, the vehicle length and ground clearance; they demonstrate that there has been a smaller p-value; being direct, it is statistically significant. Opposite, the rest of the variables are not statistically significant; if there were the possibility of getting more data, the model would change or skip these variables to help its efficiency.
@@ -33,14 +33,14 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 ### Summary Statistics on Suspension Coils.
 Analyzing this deliverable's result, the team concluded that the variance of the suspension coils must not exceed 100 pounds per square inch, respecting the design specifications for the MechaCar suspension coils. However, there was a discrepancy for Lot 3, a variance of 170, which is much higher than the design specification's limit of 100 psi; lots 1 and 2 all satisfy the design specifications.
 
-![](MechaCar_Statistical_Analysis/images/deliverable_02.png)
+![](images/deliverable_02.png)
 
 Therefore, the picture above helps to respond to the question placed by the upper management whether the current manufacturing data meet the design specification (the suspension coils must not exceed 100 pounds per square inch) for all manufacturing lots in total and each lot individually. Comparing the summary data for all three lots demonstrates that the variance is 62.3 pounds per inch, below the specified value. However, Lot 3 is clearly above the specifications.
 
 ### T-Test on Suspension Coils.
 Continuing the data set studies, the analysts' team reached a result that the PSI throughout Lot 3 is statistically distinct from the population mean, as shown by the data above, where Lot3's p-value is less than 0.05 percent. Therefore, the null hypothesis can be rejected. On the other hand, because Lots 1 and 2 both have p-values over the significance level, it's impossible to deny the null hypothesis. In conclusion, there hasn't been any significant difference between Lots 1 and 2, reaching the population mean. 
 
-![](MechaCar_Statistical_Analysis/images/deliverable_03.png)
+![](images/deliverable_03.png)
 
 As demonstrated by the outcomes in the picture above, the behaviour of the samples allows the analysts to deny or accept the null hypothesis. For that purpose, all data sets assumed the significance level as 0.05 percent.
 
